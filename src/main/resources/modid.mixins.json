@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.trainguy.blocksoundoverhaul.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "MixinBlock"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
