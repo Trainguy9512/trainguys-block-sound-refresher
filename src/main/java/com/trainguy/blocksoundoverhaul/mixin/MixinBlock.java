@@ -3,6 +3,7 @@ package com.trainguy.blocksoundoverhaul.mixin;
 import net.minecraft.core.Registry;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -176,7 +177,10 @@ public abstract class MixinBlock {
 							"flower_pot",
 							"torch",
 							"soul_torch",
-							"redstone_torch"
+							"redstone_torch",
+							"wall_torch",
+							"soul_wall_torch",
+							"redstone_wall_torch"
 							-> SMALL_OBJECT;
 					default -> cir.getReturnValue();
 				}
