@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "blocksoundoverhaul",
   "version": "${version}",
 
   "name": "Trainguy's Block Sound Overhaul",
@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/blocksoundoverhaul/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "blocksoundoverhaul.mixins.json"
   ],
 
   "depends": {
