@@ -52,12 +52,14 @@ public abstract class MixinBlock {
 							"jungle_leaves",
 							"acacia_leaves",
 							"dark_oak_leaves",
+							"mangrove_leaves",
 							"oak_sapling",
 							"birch_sapling",
 							"spruce_sapling",
 							"jungle_sapling",
 							"acacia_sapling",
-							"dark_oak_sapling"
+							"dark_oak_sapling",
+							"mangrove_propagule"
 							-> SoundType.AZALEA;
 					case
 							"lily_pad"
